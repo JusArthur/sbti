@@ -364,6 +364,11 @@ export const specialQuestions = [
   },
 ];
 
+export const getPersonalityImage = (code) => {
+  // Matches files like src/assets/pics/EN/BOSS.png
+  return new URL(`../assets/pics/EN/${code}.png`, import.meta.url).href;
+};
+
 export const TYPE_LIBRARY = {
   CTRL: {
     code: "CTRL",
