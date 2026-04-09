@@ -138,11 +138,8 @@ const App = () => {
         {/* Intro Screen */}
         {screen === "intro" && (
           <div className="pt-20 text-center">
-            <div className="inline-flex items-center gap-3 bg-white px-6 py-3 rounded-3xl border border-emerald-200 text-emerald-700 text-sm font-semibold mb-8">
-              SBTI — ENGLISH EDITION
-            </div>
             <h1 className="text-7xl font-bold tracking-tighter text-emerald-950 leading-none">
-              Discover Your True
+              SBTI Discover Your True
               <br />
               (Chaotic) Self
             </h1>
